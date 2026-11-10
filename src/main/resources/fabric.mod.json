@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donutpayfx",
+  "version": "${version}",
+  "name": "Donut Pay FX",
+  "description": "Client-side payment tracker and celebration effects.",
+  "authors": ["YourName"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donutpayfx.DonutPayFXClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
